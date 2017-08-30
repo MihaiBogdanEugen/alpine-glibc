@@ -1,9 +1,9 @@
 # Start from alpine linux 3.5.*
 FROM alpine:3.5
 
-# Install glib 2.25
+# Install glib 2.26
 RUN ALPINE_GLIBC_APK_BASE_URL="https://github.com/MihaiBogdanEugen/alpine-glibc-apk/releases/download" && \
-    ALPINE_GLIBC_APK_VERSION="2.25-r1" && \
+    ALPINE_GLIBC_APK_VERSION="2.26-r1" && \
     ALPINE_GLIBC_BASE_APK="glibc-$ALPINE_GLIBC_APK_VERSION.apk" && \
     ALPINE_GLIBC_BIN_APK="glibc-bin-$ALPINE_GLIBC_APK_VERSION.apk" && \
     ALPINE_GLIBC_I18N_APK="glibc-i18n-$ALPINE_GLIBC_APK_VERSION.apk" && \
