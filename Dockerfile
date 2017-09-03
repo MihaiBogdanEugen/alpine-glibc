@@ -1,5 +1,5 @@
-# Start from alpine linux 3.5.*
-FROM alpine:3.5
+# Start from alpine linux 3.6.*
+FROM alpine:3.6
 
 # Install glib 2.26
 RUN ALPINE_GLIBC_APK_BASE_URL="https://github.com/MihaiBogdanEugen/alpine-glibc-apk/releases/download" && \
