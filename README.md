@@ -3,8 +3,11 @@
 ### Supported tags and respective Dockerfile links:
 
 * ```3.5-2.25``` _\([3.5-2.25/Dockerfile]\)_
+[![](https://images.microbadger.com/badges/image/mbe1224/alpine-glibc:3.5-2.25.svg)](https://microbadger.com/images/mbe1224/alpine-glibc:3.5-2.25 "")
 * ```3.5-2.26``` _\([3.5-2.26/Dockerfile]\)_
+[![](https://images.microbadger.com/badges/image/mbe1224/alpine-glibc:3.5-2.26.svg)](https://microbadger.com/images/mbe1224/alpine-glibc:3.5-2.26 "")
 * ```3.6-2.26```, ```latest``` _\([3.6-2.26/Dockerfile]\)_
+[![](https://images.microbadger.com/badges/image/mbe1224/alpine-glibc:3.6-2.26.svg)](https://microbadger.com/images/mbe1224/alpine-glibc:3.6-2.26 "")
 
 #### All tag names follow the naming convention:
 
