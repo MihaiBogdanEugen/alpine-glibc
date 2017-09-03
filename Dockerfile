@@ -1,16 +1,16 @@
 # Start from alpine linux 3.5.*
 FROM alpine:3.5
 
-# Install glib 2.25
+# Install glib 2.26
 RUN ALPINE_GLIBC_APK_BASE_URL="https://github.com/MihaiBogdanEugen/alpine-glibc-apk/releases/download" && \
-    ALPINE_GLIBC_APK_VERSION="2.25-r1" && \
+    ALPINE_GLIBC_APK_VERSION="2.26-r1" && \
     ALPINE_GLIBC_APK="glibc-$ALPINE_GLIBC_APK_VERSION.apk" && \
     ALPINE_GLIBC_BIN_APK="glibc-bin-$ALPINE_GLIBC_APK_VERSION.apk" && \
     ALPINE_GLIBC_I18N_APK="glibc-i18n-$ALPINE_GLIBC_APK_VERSION.apk" && \
     ID_RSA_PUB_SHA256_SUM="26df3c56980ba67f5dda27d290bfa708dc8d991f9f5fcc74bea87b7191e255f9" && \
-    ALPINE_GLIBC_APK_SHA256_SUM="2b466dc92f98440260fe571d9620c64323953d0644e03d9e10b513e1103fe61f" && \
-    ALPINE_GLIBC_BIN_APK_SHA256_SUM="5642a3142de834b1c3ad113472d07d2022909d04ee54551fb385be0370c90b81" && \
-    ALPINE_GLIBC_I18N_APK_SHA256_SUM="388f97c07d698618f1b45e9cfc6a2cc6ae1a03c31e87514ec848de9f4e9e9f25" && \
+    ALPINE_GLIBC_APK_SHA256_SUM="b1344b3f859dbeba5a777d0778b242f6915151b431db5e36883099def4e5bd49" && \
+    ALPINE_GLIBC_BIN_APK_SHA256_SUM="8a079d22262be9d4f410f5cf24f7eb6fcb49f747aedade4ea3b2560bc0250032" && \
+    ALPINE_GLIBC_I18N_APK_SHA256_SUM="99844762b136d6a11f1355c251166cfcdc1cb03a34cd3d9d8744b52c84b3ec48" && \
     apk add --no-cache --virtual=.build-dependencies wget ca-certificates && \
     wget \
         "https://raw.githubusercontent.com/MihaiBogdanEugen/alpine-glibc-apk/master/user.abuild/mbe1224%40gmail.com.rsa.pub" \
